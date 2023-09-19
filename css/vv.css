@@ -1,0 +1,171 @@
+h1{
+   padding-top: 200px;
+   text-align: center;
+   font-size: 40px;
+
+}
+body{
+    background: url("../img/hero-bg.jpg") no-repeat;
+    background-size: contain;
+}
+.f{
+    margin-left: 33%;
+}
+.qqq{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+.klac{
+    border: 1px solid orangered;
+    border-radius: 20px ;
+    color: #ccc;
+    background-color: orangered;
+    padding: 10px;
+    margin-top: 0.1%; 
+    margin-left: 46%;
+   
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Ширина колонок, где первая колонка будет подстраиваться под размер изображения */
+    align-items: center;
+    gap: 10px; /* Пространство между изображением и блоками */
+    margin-top: 330px;
+  }
+  
+  .container .content-block {
+    display: grid;
+    grid-gap: 10px; /* Пространство между блоками */
+    justify-content: center;
+  }
+  
+  .container .block {
+    align-items: center;
+    justify-content: center;
+  }
+  .block{
+    margin-right: 0px;
+  }
+.l{
+    height: 275px;
+    width: 385px;
+    margin-left: 57% ;
+
+ 
+}
+.se{
+  margin-top: 100px;
+  background-color: rgb(252, 237, 222);
+  display: flex;
+  justify-content: center;
+  height: 525px;
+  align-items: center;
+}
+.ya{
+
+
+  width: 250px;
+  height: 400px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-right: 20px;
+  background-color: white;
+  text-align: center;
+  
+}
+.du{
+
+  border-radius: 2px;
+  width: 250px;
+  height: 400px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-right: 20px;
+  background-color: white;
+  text-align: center;
+}
+.ce{
+  
+  border-radius: 2px;
+  width: 250px;
+  height: 400px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-right: 20px;
+  background-color: white;
+  text-align: center;
+}
+.p{
+  color: rgb(184, 120, 36);
+  font-weight: 900;
+}
+
+.kl{
+  
+ 
+  margin-left: 180px;
+  margin-right: 180px;
+
+  font-size: 20px;
+ 
+}
+.z{
+
+  margin-bottom: 10px;
+  box-shadow: 2px 1px 5px  rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+  padding-top: 15px;
+}
+.ml{
+  display: flex;
+}
+.po{
+  margin-top: 90px;
+  background-color: rgb(252, 237, 222);
+  height: 500px;
+}
+.mm{
+  margin-left: 5.5%; 
+}
+.ll{
+  margin-left: 28%;
+
+}
+.input1{
+  border: 1px solid #ccc;
+  width:278px;
+  padding: 6px;
+  border-radius: 1px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.txt{
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 1px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.button{
+  margin-left: 34%;
+  border: 1px solid orangered;
+  border-radius: 2px ;
+  color: white;
+  background-color: orangered;
+  padding: 10px;
+}
+footer{
+  margin-top: 40px;
+  background-color: rgb(39, 19, 4);
+  height: 100px;
+  color: white;
+}
+span{
+  color: orangered;
+}
+input:hover{
+  box-shadow: 0px 1px 2px 0px orangered,
+            1px 2px 4px 0px orangered,
+            2px 4px 8px 0px orangered,
+            2px 4px 16px 0px orangered;
+}
